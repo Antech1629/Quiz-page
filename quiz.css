@@ -162,4 +162,32 @@ footer{
     justify-content: center;
     background-color: black;
     color: white;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: cursive;
+    margin-top: 0;
+}
+footer a{
+    color: gold;
+    text-decoration: underline;
+    transition: ease-in-out 0.2s;
+}
+footer a:hover{
+    color: rgb(107, 102, 102);
+    transform: scale(2.15);
+}
+address{
+    text-align: center;
+    padding: 0.3em;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
