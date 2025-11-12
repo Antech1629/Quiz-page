@@ -2,3 +2,38 @@ img{
     width: 50px;
     height: 50px;
 }
+*{
+    scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4d1d1;
+}
+header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 80px;
+    background-color: #796d6d;
+}
+#logo{
+    padding: 0.4rem;
+    background-color: #0a0a23;
+    aspect-ratio: 35/4;
+    width: max(10rem, 18vw)
+}
+h1{
+    color: gold;
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: line-through;
+}
