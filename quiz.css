@@ -191,3 +191,24 @@ address{
     white-space: nowrap;
     border: 0;
 }
+input:valid{
+    border-color: rgb(112, 167, 112);
+}
+input:invalid{
+    border-color: rgb(194, 92, 92);
+}
+button:focus{
+    outline: 3px solid black;
+    border: 4px solid black;
+}
+button:active{
+    translate: 6px 9px;
+}
+button:disabled{
+    background-color: grey;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    box-shadow: none;
+    cursor: not-allowed;
+    transform: none;
+}
